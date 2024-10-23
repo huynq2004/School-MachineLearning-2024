@@ -66,7 +66,7 @@ print('w = ', w.T)
 print('b = ', b)
 
 # Saving plot as PDF
-with PdfPages('svm4.pdf') as pdf:
+with PdfPages('Support Vector Machine/svm4.pdf') as pdf:
     # draw
     # plot points
     fig, ax = plt.subplots()
