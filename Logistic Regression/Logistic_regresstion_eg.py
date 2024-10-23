@@ -55,8 +55,6 @@ w_init = np.random.randn(d, 1)
 w = logistic_sigmoid_regression(X, y, w_init, eta)
 print(w[-1])
 
-
-
 #Biểu diễn kết quả trên đồ thị
 X0 = X[1, np.where(y == 0)][0]
 y0 = y[np.where(y == 0)]
@@ -77,7 +75,6 @@ plt.plot(threshold, .5, 'y^', markersize = 8)
 plt.xlabel('studying hours')
 plt.ylabel('predicted probability of pass')
 plt.show()
-
 
 #predit func
 def predict(input):
